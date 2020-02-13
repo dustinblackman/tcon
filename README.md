@@ -1,6 +1,6 @@
 ![tcon](assets/banner.jpg)
 
-A slightly lazy shell script to run parallel commands with tmux splits through a FIFO queue. This makes it super easy to run multiple jobs at the same time while monitoring progress. `tcon` uses [`tmux-xpanes`](https://github.com/greymd/tmux-xpanes#installation) under the hood, you can pass xpanes parameters to `tcon` after the concurrency limit to take full advantage of it.
+A slightly lazy shell script to run parallel commands with tmux panes through a FIFO queue. This makes it super easy to run multiple jobs at the same time while monitoring progress. `tcon` uses [`tmux-xpanes`](https://github.com/greymd/tmux-xpanes#installation) under the hood, you can pass xpanes parameters to `tcon` after the concurrency limit to take full advantage of it.
 
 ## Usage
 
