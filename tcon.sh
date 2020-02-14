@@ -21,7 +21,7 @@ run() {
 
   echo "Starting up tmux panes with a concurrency of $concurrency"
 
-  FIFO=$(mktemp -t tcon-fifo)
+  FIFO=$(mktemp)
   rm $FIFO
   mkfifo $FIFO
 
